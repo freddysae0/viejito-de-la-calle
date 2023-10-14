@@ -1,0 +1,24 @@
+{
+  "name": "domino-player-for-icpc",
+  "version": "1.0.0",
+  "description": "A really cool domino player ",
+  "main": "./server/server.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddysae0/domino-player-for-ICPC.git"
+  },
+  "author": "Freddy Javier Sáez Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddysae0/domino-player-for-ICPC/issues"
+  },
+  "homepage": "https://github.com/freddysae0/domino-player-for-ICPC#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
