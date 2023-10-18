@@ -361,7 +361,22 @@ export function decideAPiece(myPreviousPlayed, lastValOfMyPrevious, myPartnerPla
         return playAsCarry(myPreviousPlayed, lastValOfMyPrevious, myPartnerPlayed, lastValOfMyPartner, pieces, heads, myMoves, myPartnerMoves, myPartnerNoLleva, myNextplayerMoves, myNextplayerNoLleva, myPreviousplayerMoves, myPreviousplayerNoLleva);
     } else {
         //Play as support
-        return playAsSupport(myPreviousPlayed, lastValOfMyPrevious, myPartnerPlayed, lastValOfMyPartner, pieces, heads, myMoves, myPartnerMoves, myPartnerNoLleva, myNextplayerMoves, myNextplayerNoLleva, myPreviousplayerMoves, myPreviousplayerNoLleva);
+        return playAsCarry(
+          myPreviousPlayed,
+          lastValOfMyPrevious,
+          myPartnerPlayed,
+          lastValOfMyPartner,
+          pieces,
+          heads,
+          myMoves,
+          myPartnerMoves,
+          myPartnerNoLleva,
+          myNextplayerMoves,
+          myNextplayerNoLleva,
+          myPreviousplayerMoves,
+          myPreviousplayerNoLleva
+        );
+        
         //return playAsSupport(pieces, heads, myMoves, myPartnerMoves, myPartnerNoLleva, myNextplayerMoves, myNextplayerNoLleva, myPreviousplayerMoves, myPreviousplayerNoLleva);
     }
 
