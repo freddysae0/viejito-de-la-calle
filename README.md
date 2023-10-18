@@ -7,6 +7,7 @@ Este es un jugador de dominó para usar en [cooperAltive](https://github.com/2ko
 1. Asegúrese de tener Docker instalado en su sistema. Puede descargarlo desde [el sitio web oficial de Docker](https://docs.docker.com/get-docker/).
 
 2. Clone el repositorio del "viejito-de-la-calle" desde GitHub:
+
    git clone https://github.com/freddysae0/viejito-de-la-calle.git
 
 3. Navegue al directorio clonado:
