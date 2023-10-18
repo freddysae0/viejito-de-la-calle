@@ -22,3 +22,16 @@ Este es un jugador de dominó para usar en [cooperAltive](https://github.com/2ko
    docker run -p 8000:8000 viejito-domino
 
 ¡Ahora tiene al viejito experto en dominó callejero listo para jugar en su contenedor Docker! Diviértase y disfrute del juego.
+
+<details>
+<summary>Haz clic para ver el código</summary>
+
+```python
+# Tu código aquí
+def hola_mundo():
+    return "Hola, mundo!"
+
+print(hola_mundo())
+
+</details>
+```
